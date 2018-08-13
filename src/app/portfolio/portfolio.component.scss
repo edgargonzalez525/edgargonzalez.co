@@ -1,0 +1,9 @@
+:host {
+  ::ng-deep {
+    .carousel-control-prev,
+    .carousel-control-next {
+      background: rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+  }
+}

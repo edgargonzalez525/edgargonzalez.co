@@ -1,20 +1,736 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="c-main-container  js-main-container"
+     [@fadeInAnimation]>
 
+
+  <!-- ################################ -->
+  <!-- ############ HEADER ############ -->
+  <!-- ################################ -->
+
+  <section class="o-section o-section--header  t-section  t-section--header">
+    <div class="c-header">
+
+      <div class="o-section__header-bg  t-section__header"></div>
+      <div class="o-section__content-bg  t-section__content"></div>
+
+      <div class="o-container">
+        <div class="o-section__container">
+
+          <header class="o-section__header  c-header__header  t-section__header">
+            <div class="c-header__inner-header">
+
+              <div class="c-header__avatar">
+                <div class="a-header  c-avatar">
+                  <img class="c-avatar__img" src="/assets/images/header/avatar2.jpeg" alt="">
+                </div><!-- /c-avatar -->
+              </div><!-- /c-header-avatar -->
+
+            </div><!-- /c-header__inner-header -->
+          </header><!-- /o-section__header -->
+
+          <div class="o-section__content  c-header__content  t-section__content">
+            <div class="c-header__inner-content">
+
+              <div class="c-header__top">
+
+                <div class="c-header__brand">
+
+                  <div class="c-brand">
+                    <h1 class="c-brand__title  t-title">
+                                                    <span class="c-brand__sizer">
+                                                        <span class="a-header  c-brand__first-word  t-title__first-word">
+                                                            Edgar
+                                                        </span>
+                                                        <span class="a-header  c-brand__second-word  t-title__second-word">
+                                                            González
+                                                        </span>
+                                                    </span>
+                    </h1>
+                    <h2 class="a-header  c-brand__sub-title  t-sub-title">
+                                                    <span class="c-brand__sizer">
+                                                        Web Developer &amp; Front-end Expert
+                                                    </span>
+                    </h2>
+                  </div><!-- /c-brand -->
+
+                </div><!-- /c-header__brand -->
+
+                <ul class="c-header__social-buttons  c-social-buttons">
+                  <li class="a-header">
+                    <a href="https://www.linkedin.com/in/edgargonzalezpetit/" target="_blank" class="c-social-button  t-social-button">
+                      <i class="fa  fa-lg  fa-linkedin"></i>
+                    </a>
+                  </li>
+                </ul><!-- /c-header__social-buttons -->
+
+              </div><!-- /c-header__top -->
+
+              <div class="c-header__contact">
+
+                <hr class="a-header  c-header__contact-divider"/>
+
+                <div class="o-grid">
+
+                  <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                    <div class="a-header  o-content">
+                      <div class="o-content__body">
+                        <h4>Location</h4>
+                        <address>
+                          Santiago, Chile
+                        </address>
+                      </div>
+                    </div><!-- /o-content -->
+                  </div><!-- /o-grid__col -->
+
+                  <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                    <div class="a-header  o-content">
+                      <div class="o-content__body">
+                        <a href="#" target="_blank" class="t-link-container">
+                          <h4>Email</h4>
+                          <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    contact@edgargonzalez.co
+                                                                </span>
+                          </p>
+                        </a><!-- /o-link-container -->
+                      </div>
+                    </div><!-- /o-content -->
+                  </div><!-- /o-grid__col -->
+
+                  <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                    <div class="a-header  o-content">
+                      <div class="o-content__body">
+                        <a href="https://www.linkedin.com/in/edgargonzalezpetit/" target="_blank" class="t-link-container">
+                          <h4>LinkedIn</h4>
+                          <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    https://www.linkedin.com/in/edgargonzalezpetit/
+                                                                </span>
+                          </p>
+                        </a><!-- /o-link-container -->
+                      </div>
+                    </div><!-- /o-content -->
+                  </div><!-- /o-grid__col -->
+                </div><!-- /o-grid -->
+              </div><!-- /c-header__contact -->
+
+            </div><!-- /c-header__inner-content -->
+          </div><!-- /o-section__content -->
+
+        </div><!-- /o-section__container -->
+
+      </div><!-- /o-container -->
+
+    </div><!-- /c-header -->
+  </section><!-- /o-section -->
+
+
+  <!-- ################################ -->
+  <!-- ############ INTRO ############# -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Intro
+            </h2>
+            <div class="o-content__body  o-section__description">
+              What I am all about.
+            </div>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  ">
+
+          <div class="o-content">
+            <div class="c-intro">
+              <div class="o-content__body">
+                <p>
+                  I am a Senior Front End Developer, with extensive experience in JS, jQuery, Angular, IonicFramework, CSS, PHP, Symfony2,
+                  Laravel, Codeigniter, Doctrine, MySql, SQL Server and others web development technologies such as Bower, Gulp, Grunt and
+                  Composer. I have been working with Scrum for the past 3 years.
+                </p>
+
+                <p>
+                  I have been developing web applications for the last 8 years and work daily with many different combined technologies. I
+                  have also worked in the development of Mobile applications using Ionic Framework and Phonegap, and I have extensive
+                  experience developing HTLM5 applications. I've also been developing applications with AngularJS and Angular for over 3
+                  years. I have been using docker scripts to build and deploy all my applications within the company.
+                </p>
+
+                <p>
+                  I'm also experienced working with express.js applications, built cli's in node to automate process, had worked with
+                  Electron to build coss-os applications.
+                </p>
+
+                <p>
+                  I love new challenges and always keep in sync with new technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+
+  <!-- ################################ -->
+  <!-- ########## EXPERTISE ########### -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Expertise
+            </h2>
+            <div class="o-content__body  o-section__description">
+              Batman would be jealous.
+            </div>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  ">
+
+          <div class="o-grid">
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    01
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>Advanced CSS</h3>
+                  <p>
+                    Been working with css latest features since long time ago. Have lots of experience creating markups and layouts from
+                    sketch / photoshop / pictures with pixel perfect oriented results.
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    02
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>JavaScript</h3>
+                  <p>
+                    Passionated about javascript latest features. More than 6 years of experience working with it, always in sync with new
+                    awesome features and always open to try new frameworks and technologies.
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    03
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>Node</h3>
+                  <p>
+                    Have worked creating some REST APIs using ExpressJs and NestJs, also made 2 apps using electron to make them cross-os
+                    compatible. I also have some experience building CLIs to automate some processes.
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    04
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>AngularJs / Angular</h3>
+                  <p>
+                    For the last 3 years I have been creating awesome projects with AngularJs and Angular(2/4/5/6), Im very proficient with
+                    it, so anything you need on angular, you name it and I can do it!
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    05
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>Typescript</h3>
+                  <p>
+                    When working with Angular, I really started loving all the cool features typescript brought, like static type checking,
+                    strong typed development and easily refactor code. Since then I have been using it and the future seems bright.
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-sm-6">
+              <div class="o-media  o-media--block  o-content">
+                <div class="o-media__figure">
+                  <div class="c-number  t-primary-color">
+                    06
+                  </div>
+                </div>
+                <div class="o-media__body  o-content__body">
+                  <h3>Docker</h3>
+                  <p>
+                    Lately I have used docker to build and deploy all the projects I have worked on, all the facilities that it gives to
+                    easily create multiple containers and redundant nodes, makes it perfect for production usage.
+                  </p>
+                </div>
+              </div><!-- /o-media o-content -->
+            </div><!-- /o-grid__col -->
+
+          </div><!-- /o-grid -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+
+  <!-- ################################ -->
+  <!-- ########## EXPERIENCE ########## -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Experience
+            </h2>
+            <div class="o-content__body  o-section__description">
+              Yes. I&#39;ve been around.
+            </div>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  u-pb-0">
+
+          <div class="a-experience-timeline  c-timeline  t-border-color">
+
+            <div class="c-timeline__item">
+              <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+              <div class="o-content">
+                <div class="o-grid">
+                  <div class="o-grid__col-md-5">
+                    <div class="c-work__timeframe">
+                      2016 &ndash; Present
+                    </div>
+                    <h3 class="c-work__heading">
+                      DevFactory
+                    </h3>
+                    <h4 class="c-work__title">
+                      Senior Frontend Developer
+                    </h4>
+                    <div class="c-work__location">
+                      Remote
+                    </div>
+                  </div>
+                  <div class="o-grid__col-md-7">
+                    <p>
+                      Working on DevFactory Prototype Team developing functional prototypes for companies inside Trilogy group. My main
+                      responsibility is to enable Product Managers to develop and refine their ideas, create working demos, and deliver
+                      concrete UI specs. Also create and maintain along with other team members reusable angular 2 library, with flexible
+                      components to allow rapid development of prototypes. All this projects are deployed though the creation of a generic
+                      Docker script to build all new projects created on the team.
+
+                      Technologies: Angular2, bootstrap, REST APIs, SASS, gulp, angular-cli
+                    </p>
+                  </div>
+                </div><!-- /o-grid -->
+              </div><!-- /o-content -->
+            </div><!-- /c-timeline__item -->
+
+            <div class="c-timeline__item">
+              <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+              <div class="o-content">
+                <div class="o-grid">
+                  <div class="o-grid__col-md-5">
+                    <div class="c-work__timeframe">
+                      2015 &ndash; Present
+                    </div>
+                    <h3 class="c-work__heading">
+                      Unity Software
+                    </h3>
+                    <h4 class="c-work__title">
+                      Co-Founder
+                    </h4>
+                    <div class="c-work__location">
+                      Carabobo, VE
+                    </div>
+                  </div>
+                  <div class="o-grid__col-md-7">
+                    <p>
+                      Co-Founder of Unity Software, C.A., a Company dedicated of development, design, install and sell Enterprise solutions.
+
+                      USED TECHNOLOGIES:
+                      C#, ASP .NET MVC, Identity, Entity Framework, MEF, MS SQL Server, HTML5, JavaScript, CSS3, Git, KnockOut, AngularJs
+                    </p>
+                  </div>
+                </div><!-- /o-grid -->
+              </div><!-- /o-content -->
+            </div><!-- /c-timeline__item -->
+          </div><!-- /c-timeline -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+
+  <!-- ################################ -->
+  <!-- ########### EDUCATION ########## -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Education
+            </h2>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  u-pt-0">
+
+          <div class="o-content">
+            <div class="a-education-timeline  c-timeline  t-border-color  o-section__full-top-space">
+              <div class="c-timeline__end  t-border-color"></div>
+
+              <div class="c-timeline__item">
+                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                <div class="o-content">
+                  <div class="o-grid">
+                    <div class="o-grid__col-md-5">
+                      <div class="c-work__timeframe">
+                        2006 &ndash; 2010
+                      </div>
+                      <h3 class="c-work__heading">
+                        Universidad Nacional Experimental de la Fuerza Armada
+                      </h3>
+                      <h4 class="c-work__title">
+                        System Engineer
+                      </h4>
+                      <div class="c-work__location">
+                        Puerto Cabello, VE
+                      </div>
+                    </div>
+                    <div class="o-grid__col-md-7">
+                      <p>
+                        Systems engineering focuses on analyzing and eliciting customer needs and required functionality early in the
+                        development cycle, documenting requirements, then proceeding with design synthesis and system validation while
+                        considering the complete problem, the system lifecycle. This includes fully understanding all of the stakeholders
+                        involved.
+                      </p>
+                    </div>
+                  </div><!-- /o-grid -->
+                </div><!-- /o-content -->
+              </div><!-- /c-timeline__item -->
+
+            </div><!-- /c-timeline -->
+          </div><!-- /o-content -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+
+  <!-- ################################ -->
+  <!-- ########### PROFILES ########### -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Profiles
+            </h2>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  ">
+
+          <div class="o-grid">
+
+            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+              <div class="o-content">
+                <a href="https://github.com/edgargonzalez525" target="_blank" class="t-link-container">
+                  <div class="o-media  o-media--block">
+                    <div class="o-media__figure">
+                      <div class="c-profile__icon">
+                        <i class="fa  fa-lg  fa-github-alt"></i>
+                      </div>
+                    </div>
+                    <div class="o-media__body  o-content__body">
+                      <h3 class="t-link-container__item">
+                        GitHub
+                      </h3>
+                      <p>
+                        All my open source projects for you analyze.
+                      </p>
+                    </div>
+                  </div><!-- /o-media -->
+                </a><!-- /t-link-container -->
+              </div><!-- /o-content -->
+            </div><!-- /o-grid__col -->
+
+            <div class="o-grid__col-xl-4  o-grid__col-sm-6">
+              <div class="o-content">
+                <a href="https://www.linkedin.com/in/edgargonzalezpetit/" target="_blank" class="t-link-container">
+                  <div class="o-media  o-media--block">
+                    <div class="o-media__figure">
+                      <div class="c-profile__icon">
+                        <i class="fa  fa-lg  fa-linkedin"></i>
+                      </div>
+                    </div>
+                    <div class="o-media__body  o-content__body">
+                      <h3 class="t-link-container__item">
+                        LinkedIn
+                      </h3>
+                      <p>
+                        All CV experience so you can take a deeper look.
+                      </p>
+                    </div>
+                  </div><!-- /o-media -->
+                </a><!-- /t-link-container -->
+              </div><!-- /o-content -->
+            </div><!-- /o-grid__col -->
+
+          </div><!-- /o-grid -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+  <!-- ################################ -->
+  <!-- ########### PORTFOLIO ########## -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  ">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Portfolio
+            </h2>
+            <div class="o-content__body  o-section__description">
+              Here it gets interesting.
+            </div>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  o-section__full-bottom-space">
+
+          <div class="o-grid  o-grid--gallery">
+
+            <div class="o-grid__col-sm-6"
+                 *ngFor="let project of projects"
+                 (click)="openPortfolio(project)">
+              <div class="c-image-overlay  t-image-overlay">
+                <img [src]="project.image" [attr.alt]="project.name">
+                <div class="c-image-overlay__content">
+                  <h3>
+                    {{project.name}}
+                  </h3>
+                  <hr class="c-image-overlay__deco-line  t-image-overlay__deco-line"/>
+                  <p>
+                    {{project.description}}
+                  </p>
+                </div>
+              </div>
+            </div><!-- /o-grid__col -->
+
+          </div><!-- /o-grid -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+  <!-- ################################ -->
+  <!-- ############ FOOTER ############ -->
+  <!-- ################################ -->
+
+  <section class="o-section  t-section  o-section--footer">
+
+    <div class="o-section__header-bg  t-section__header"></div>
+    <div class="o-section__content-bg  t-section__content"></div>
+
+    <div class="o-container">
+      <div class="o-section__container">
+
+        <header class="o-section__header  t-section__header">
+          <div class="o-content">
+            <h2 class="o-section__heading">
+              Contact
+            </h2>
+            <div class="o-content__body  o-section__description">
+              Call me, maybe.
+            </div>
+          </div>
+        </header><!-- /o-section__header -->
+
+        <div class="o-section__content  t-section__content  ">
+
+          <div class="c-footer__contact">
+            <div class="o-grid">
+
+              <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                <div class="a-header  o-content">
+                  <div class="o-content__body">
+                    <h4>Location</h4>
+                    <address>
+                      Santiago, Chile
+                    </address>
+                  </div>
+                </div><!-- /o-content -->
+              </div><!-- /o-grid__col -->
+
+              <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                <div class="a-header  o-content">
+                  <div class="o-content__body">
+                    <a href="#" target="_blank" class="t-link-container">
+                      <h4>Email</h4>
+                      <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    contact@edgargonzalez.co
+                                                                </span>
+                      </p>
+                    </a><!-- /o-link-container -->
+                  </div>
+                </div><!-- /o-content -->
+              </div><!-- /o-grid__col -->
+
+              <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                <div class="a-header  o-content">
+                  <div class="o-content__body">
+                    <a href="https://www.linkedin.com/in/edgargonzalezpetit/" target="_blank" class="t-link-container">
+                      <h4>LinkedIn</h4>
+                      <p>
+                                                                <span class="t-link-container__item--blended">
+                                                                    https://www.linkedin.com/in/edgargonzalezpetit/
+                                                                </span>
+                      </p>
+                    </a><!-- /o-link-container -->
+                  </div>
+                </div><!-- /o-content -->
+              </div><!-- /o-grid__col -->
+            </div><!-- /o-grid -->
+          </div><!-- /c-footer__contact -->
+
+          <hr class="c-footer__contact-divider"/>
+
+          <div class="o-content">
+            <div class="c-footer__bottom">
+              <div class="c-footer__brand">
+
+                <div class="c-brand">
+                  <div class="o-content__body">
+                    <h1 class="c-brand__title  t-title">
+                                                        <span class="c-brand__sizer  c-brand__sizer--sm">
+                                                            <span class="a-footer  c-brand__first-word  t-title__first-word">
+                                                                Edgar
+                                                            </span>
+                                                            <span class="a-footer  c-brand__second-word  t-title__second-word">
+                                                                González
+                                                            </span>
+                                                        </span>
+                    </h1>
+                  </div><!-- /o-content__body -->
+                </div><!-- /c-brand -->
+
+              </div><!-- /c-footer__brand -->
+
+              <ul class="c-header__social-buttons  c-social-buttons">
+                <li class="a-header">
+                  <a href="https://www.linkedin.com/in/edgargonzalezpetit/" target="_blank" class="c-social-button  t-social-button">
+                    <i class="fa  fa-lg  fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul><!-- /c-header__social-buttons -->
+
+            </div><!-- /c-footer__bottom -->
+          </div><!-- /o-content -->
+
+        </div><!-- /o-section__content -->
+
+      </div><!-- /o-section__container -->
+    </div><!-- /o-container -->
+
+  </section><!-- /o-section -->
+
+
+</div><!-- /c-main-container -->
